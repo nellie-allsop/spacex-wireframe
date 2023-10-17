@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial, verdana, sans-serif;
+	color: white;
+	background-image: url(./rocket.jpg);
+	background-size: cover;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+a {
+	color: white;
+}
+
+button {
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+footer.img {
+	grid-column-start: 2;
+	grid-column-end: 2;
+}
