@@ -5,28 +5,60 @@
 body {
 	font-family: arial, verdana, sans-serif;
 	color: white;
-	background-image: url(./rocket.jpg);
+	background-image: url(./Images/rocket.jpg);
 	background-size: cover;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr 1fr;
+	display: flex;
+	flex-direction: column;
 }
 
 a {
 	color: white;
+	padding: 10px;
+	text-decoration: none;
 }
 
 button {
 	background-color: transparent;
 	color: white;
 	border: 1px solid white;
-	grid-row-start: 2;
-	grid-row-end: 3;
-	grid-column-start: 1;
-	grid-column-end: 2;
 }
 
-footer.img {
-	grid-column-start: 2;
-	grid-column-end: 2;
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+#hamburger {
+	max-height: 50px;
+	max-width: 50px;
+}
+
+main {
+	margin-top: 500px;
+}
+
+div {
+	padding: 50px;
+}
+
+h2,
+h1 {
+	margin-bottom: 20px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	max-height: 100px;
+}
+
+#arrow {
+	max-height: 50px;
+	max-width: 50px;
 }
